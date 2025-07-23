@@ -3,6 +3,7 @@
 class scope_table
 {
 private:
+
     int bucket_count;
     int unique_id;
     scope_table *parent_scope = NULL;
